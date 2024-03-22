@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "producthomes",
+  "info": {
+    "singularName": "producthome",
+    "pluralName": "producthomes",
+    "displayName": "producthome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "producthomes"
+    },
+    "reting": {
+      "type": "decimal"
+    }
+  }
+}

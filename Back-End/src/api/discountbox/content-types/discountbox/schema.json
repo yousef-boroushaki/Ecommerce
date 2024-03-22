@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discountboxes",
+  "info": {
+    "singularName": "discountbox",
+    "pluralName": "discountboxes",
+    "displayName": "discountbox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0
+    },
+    "discount": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "discountboxes"
+    },
+    "reting": {
+      "type": "decimal"
+    }
+  }
+}

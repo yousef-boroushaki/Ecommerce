@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "loginbgs",
+  "info": {
+    "singularName": "loginbg",
+    "pluralName": "loginbgs",
+    "displayName": "loginbg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

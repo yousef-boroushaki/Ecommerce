@@ -1,0 +1,27 @@
+pass:
+
+
+Javad.1382.73
+
+شماره پیگیری سرور مشترک:     
+
+GmshtyjwKSttRFfb4cLR1eXGf3Pda8/JDtqsxFrdKw
+
+ip:  103.75.199.234
+
+login server pass:
+
+Amirrezamirshafiee0
+
+
+apt-get update
+
+http://103.75.199.234:54321
+
+
+for site:
+
+user: javaddarroodi
+
+pass:
+Amirrezamirshafiee0
